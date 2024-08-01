@@ -1,0 +1,1818 @@
+
+<!DOCTYPE html><html lang="en-US">	<head>
+
+		        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="//gmpg.org/xfn/11">
+        <link rel="pingback" href="https://pratham.org/xmlrpc.php">
+        <title>Pratham &#8211; Every Child In School and Learning Well</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Pratham &raquo; Feed" href="https://pratham.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pratham &raquo; Comments Feed" href="https://pratham.org/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.0.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-6231DEHVKJ"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '9.0.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/pratham.org\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-6231DEHVKJ',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-6231DEHVKJ', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pratham.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://pratham.org/wp-includes/css/dist/block-library/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://pratham.org/wp-content/plugins/gutentor/assets/library/magnific-popup/magnific-popup.min.css?ver=1.8.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://pratham.org/wp-content/plugins/gutentor/assets/library/slick/slick.min.css?ver=1.8.1' type='text/css' media='all' />
+<style id='pdfemb-pdf-embedder-viewer-style-inline-css' type='text/css'>
+.wp-block-pdfemb-pdf-embedder-viewer{max-width:none}
+
+</style>
+<link rel='stylesheet' id='awsm-ead-public-css' href='https://pratham.org/wp-content/plugins/embed-any-document/css/embed-public.min.css?ver=2.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='https://pratham.org/wp-content/plugins/gutentor/assets/library/fontawesome/css/all.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpness-grid-css' href='https://pratham.org/wp-content/plugins/gutentor/assets/library/wpness-grid/wpness-grid.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css' href='https://pratham.org/wp-content/plugins/gutentor/assets/library/animatecss/animate.min.css?ver=3.7.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://pratham.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css' href='https://pratham.org/wp-content/plugins/siteorigin-panels/css/front-flex.min.css?ver=2.29.19' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-social-media-buttons-atom-410770ec663a-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-410770ec663a.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-social-media-buttons-atom-a8f668ca5e65-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-a8f668ca5e65.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='education-base-googleapis-css' href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://pratham.org/wp-content/themes/education-base/assets/library/bootstrap/css/bootstrap.min.css?ver=3.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://pratham.org/wp-content/themes/education-base/assets/library/Font-Awesome/css/font-awesome.min.css?ver=4.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-owl-css' href='https://pratham.org/wp-content/themes/education-base/assets/library/owl-carousel/owl.carousel.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='education-base-style-css' href='https://pratham.org/wp-content/themes/education-base/style.css?ver=1.4.4' type='text/css' media='all' />
+<style id='education-base-style-inline-css' type='text/css'>
+
+             .init-animate {
+                visibility: visible !important;
+             }
+             
+              .inner-main-title {
+                background-image:url('https://pratham.org/wp-content/themes/education-base/assets/img/university.jpg');
+                background-repeat:no-repeat;
+                background-size:cover;
+                background-attachment:fixed;
+                background-position: center; 
+                height: 500px;
+            }
+            .top-header,
+            article.post .entry-header .year,
+            .wpcf7-form input.wpcf7-submit ::before ,
+            .btn-primary::before {
+                background-color: #ffffff;
+            }
+            .site-footer{
+                background-color: #faf9f7;
+            }
+            .copy-right{
+                background-color: #faf9f7;
+            }
+            a:hover,
+            a:active,
+            a:focus,
+            .widget li a:hover,
+            .posted-on a:hover,
+            .author.vcard a:hover,
+            .cat-links a:hover,
+            .comments-link a:hover,
+            .edit-link a:hover,
+            .tags-links a:hover,
+            .byline a:hover,
+            .main-navigation .acme-normal-page .current_page_item a,
+            .main-navigation .acme-normal-page .current-menu-item a,
+            .main-navigation .active a,
+            .main-navigation .navbar-nav >li a:hover,
+            .team-item h3 a:hover,
+            .news-notice-content .news-content a:hover,
+            .circle .fa{
+                color: #f4bb03;
+            }
+            .navbar .navbar-toggle:hover,
+            .main-navigation .current_page_ancestor > a:before,
+            .comment-form .form-submit input,
+            .btn-primary,
+            .line > span,
+            .wpcf7-form input.wpcf7-submit,
+            .wpcf7-form input.wpcf7-submit:hover,
+            .owl-buttons > div i:hover,
+            article.post .entry-header,
+            .sm-up-container,
+            .read-more,
+            .testimonial-content,
+            .round-icon,
+            .round-icon:hover{
+                background-color: #f4bb03;
+                color:#fff;
+            }
+            .blog article.sticky,
+            .top-header .read-more,
+            .circle{
+                border: 2px solid #f4bb03;
+            }
+</style>
+<link rel='stylesheet' id='dflip-style-css' href='https://pratham.org/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=2.2.54' type='text/css' media='all' />
+<link rel='stylesheet' id='open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;display=fallback&#038;ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='montserrat-css' href='//fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=cyrillic%2Ccyrillic-ext%2Clatin%2Clatin-ext%2Cvietnamese&#038;ver=2.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kc-general-css' href='https://pratham.org/wp-content/plugins/kingcomposer/assets/frontend/css/kingcomposer.min.css?ver=2.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kc-animate-css' href='https://pratham.org/wp-content/plugins/kingcomposer/assets/css/animate.css?ver=2.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='kc-icon-1-css' href='https://pratham.org/wp-content/plugins/kingcomposer/assets/css/icons.css?ver=2.9.6' type='text/css' media='all' />
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=9.0.0" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/pratham.org","hash_tracking":"false","v4_id":"G-6231DEHVKJ"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/assets/library/html5shiv/html5shiv.min.js?ver=3.7.3" id="html5-js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/assets/library/respond/respond.min.js?ver=1.1.2" id="respond-js"></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://pratham.org/wp-json/" /><link rel="alternate" type="application/json" href="https://pratham.org/wp-json/wp/v2/pages/104" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pratham.org/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://pratham.org/" />
+<link rel='shortlink' href='https://pratham.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://pratham.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpratham.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://pratham.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpratham.org%2F&#038;format=xml" />
+<script type="text/javascript">var kc_script_data={ajax_url:"https://pratham.org/wp-admin/admin-ajax.php"}</script><style media="all" id="siteorigin-panels-layouts-head">/* Layout 104 */ #pgc-104-0-0 , #pgc-104-1-0 , #pgc-104-2-0 , #pgc-104-3-0 , #pgc-104-4-0 , #pgc-104-5-0 , #pgc-104-6-0 , #pgc-104-7-0 , #pgc-104-8-0 , #pgc-104-9-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pg-104-0 , #pg-104-1 , #pg-104-2 , #pg-104-3 , #pg-104-4 , #pg-104-5 , #pg-104-6 , #pg-104-7 , #pg-104-8 , #pl-104 .so-panel { margin-bottom:30px } #pl-104 .so-panel:last-of-type { margin-bottom:0px } #pg-104-0.panel-has-style > .panel-row-style, #pg-104-0.panel-no-style , #pg-104-1.panel-has-style > .panel-row-style, #pg-104-1.panel-no-style , #pg-104-2.panel-has-style > .panel-row-style, #pg-104-2.panel-no-style , #pg-104-3.panel-has-style > .panel-row-style, #pg-104-3.panel-no-style , #pg-104-4.panel-has-style > .panel-row-style, #pg-104-4.panel-no-style , #pg-104-5.panel-has-style > .panel-row-style, #pg-104-5.panel-no-style , #pg-104-6.panel-has-style > .panel-row-style, #pg-104-6.panel-no-style , #pg-104-7.panel-has-style > .panel-row-style, #pg-104-7.panel-no-style , #pg-104-8.panel-has-style > .panel-row-style, #pg-104-8.panel-no-style , #pg-104-9.panel-has-style > .panel-row-style, #pg-104-9.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } #panel-104-1-0-1> .panel-widget-style { background-image:url(https://pratham.org/wp-content/uploads/2019/03/blurred-background-10.png);background-position:center center;background-size:cover } @media (max-width:780px){ #pg-104-0.panel-no-style, #pg-104-0.panel-has-style > .panel-row-style, #pg-104-0 , #pg-104-1.panel-no-style, #pg-104-1.panel-has-style > .panel-row-style, #pg-104-1 , #pg-104-2.panel-no-style, #pg-104-2.panel-has-style > .panel-row-style, #pg-104-2 , #pg-104-3.panel-no-style, #pg-104-3.panel-has-style > .panel-row-style, #pg-104-3 , #pg-104-4.panel-no-style, #pg-104-4.panel-has-style > .panel-row-style, #pg-104-4 , #pg-104-5.panel-no-style, #pg-104-5.panel-has-style > .panel-row-style, #pg-104-5 , #pg-104-6.panel-no-style, #pg-104-6.panel-has-style > .panel-row-style, #pg-104-6 , #pg-104-7.panel-no-style, #pg-104-7.panel-has-style > .panel-row-style, #pg-104-7 , #pg-104-8.panel-no-style, #pg-104-8.panel-has-style > .panel-row-style, #pg-104-8 , #pg-104-9.panel-no-style, #pg-104-9.panel-has-style > .panel-row-style, #pg-104-9 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-104-0 > .panel-grid-cell , #pg-104-0 > .panel-row-style > .panel-grid-cell , #pg-104-1 > .panel-grid-cell , #pg-104-1 > .panel-row-style > .panel-grid-cell , #pg-104-2 > .panel-grid-cell , #pg-104-2 > .panel-row-style > .panel-grid-cell , #pg-104-3 > .panel-grid-cell , #pg-104-3 > .panel-row-style > .panel-grid-cell , #pg-104-4 > .panel-grid-cell , #pg-104-4 > .panel-row-style > .panel-grid-cell , #pg-104-5 > .panel-grid-cell , #pg-104-5 > .panel-row-style > .panel-grid-cell , #pg-104-6 > .panel-grid-cell , #pg-104-6 > .panel-row-style > .panel-grid-cell , #pg-104-7 > .panel-grid-cell , #pg-104-7 > .panel-row-style > .panel-grid-cell , #pg-104-8 > .panel-grid-cell , #pg-104-8 > .panel-row-style > .panel-grid-cell , #pg-104-9 > .panel-grid-cell , #pg-104-9 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-104 .panel-grid-cell { padding:0 } #pl-104 .panel-grid .panel-grid-cell-empty { display:none } #pl-104 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel="icon" href="https://pratham.org/wp-content/uploads/2019/04/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://pratham.org/wp-content/uploads/2019/04/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://pratham.org/wp-content/uploads/2019/04/favicon.png" />
+<meta name="msapplication-TileImage" content="https://pratham.org/wp-content/uploads/2019/04/favicon.png" />
+		<style type="text/css" id="wp-custom-css">
+			.mc-modal, .mc-modal-bg {
+    display: none !important;
+}
+.sc-head2 {font-size: 20px !important;max-width: 375px !important;line-height: 30px !important;}
+.h100 {height: 100%;}
+.tarl {min-height: 520px;}
+.sc-head2 strong {color: #000 !important;}
+.pband {max-width: 560px;margin: 0 auto;float: none;}
+.sociallinks {max-width: 190px;margin: 0 auto;}
+.sociallinks .item-grid {padding: 0 5px;margin-top: 0 !important;}
+.bx-shadow iframe {box-shadow: -16px 18px 30px 12px #0000003b;}
+.bx-shadow2 iframe {box-shadow: 0px 5px 20px 0px #0000003b}
+.page-id-17189 div#pagebannerimg {display: none;}
+.cwidth {max-width: 960px;margin: 0 auto;}
+.fitalic p.scapt {font-style: italic;}
+.pr-gov p {max-width: 780px;margin: 0 auto 20px !important;}
+.page-id-16896 .inner-main-title {display: none;}
+.pt-program h4 {text-transform: capitalize;font-size: 20px;line-height: 30px;text-align:left;margin-top:0;}
+.kasp h5 {font-size: 20px;text-transform: capitalize;font-weight: bold;background: #ffbe00;color: #000;padding: 15px;display: flex;justify-content: center;width: 61%;margin: 0 auto 20px;}
+.ularr li:before {content: '';background: url(https://pratham.org/wp-content/uploads/2024/03/arrow.png) no-repeat center / cover;position: absolute;width: 23px;height: 11px;left: -20px;top: 12px;}
+.ularr ul {list-style: none;margin-bottom: 0;margin-left: 0;padding-left: 22px;}
+.ularr li {position: relative;padding-left: 20px !important;}
+.max-width {max-width: 1170px;padding: 0 15px;}
+.post-template-blog-template div#content {margin: 50px 0;}
+.post-template-blog-template figure.post-thumb {display: none;}
+.post-template-blog-template h1.entry-title {text-align: center;font-weight: bold;max-width: 840px;margin: 0 auto 30px;font-size: 30px;line-height: 40px;text-transform: capitalize;}
+.post-template-blog-template .white-box {padding: 30px;}
+.post-template-blog-template p {text-align: justify;}
+.blog-page li:not(:last-child) {margin-bottom: 50px;}
+.blog-page {margin: 0;padding: 0;}
+.blog-page li {padding: 0 !important;background: transparent !important;}
+.blog-page .image img {height: 200px;object-fit: cover;max-width: 300px;}
+.blog-page li p a:not(.excerpt-more) {font-size: 24px;line-height:34px;color: #222;}
+.blog-page li p {font-size: 16px !important;line-height: 26px;}
+body .footer-social-media .social-media-button-container .sow-social-media-button:hover {color: #222 !important;}
+.sow-social-media-button-twitter-0 span.sow-icon-fontawesome:before {
+    background: url('https://pratham.org/wp-content/uploads/2024/02/x.svg') no-repeat center / cover;color: transparent;}
+.girl-scale {min-height: 560px;}
+.page-id-14491 .inner-main-title .container, .page-id-15761 .inner-main-title .container, .page-id-15868 .inner-main-title .container, .page-id-15931 .inner-main-title .container, .mx-cuswid {max-width:1200px;padding: 0 15px;}
+.lp0 p:last-child {margin-bottom: 0;}
+.mx-wid2 .kc-row-container {max-width:1240px;margin:0 auto;}
+.voc-app .kc-col-container {max-width: 1210px;margin: 0 auto;}
+.res-reach {min-height: 500px;}
+.rcont {min-height: 560px;}
+.eco ul {margin-left: 0;padding-left: 20px;}
+.levels {width: auto;}
+.rtxt strong {font-size: 30px;}
+.rscale .kc-col-container{align-content: space-between !important;}
+.rscale {min-height: 700px;}
+.mb0 p {margin-bottom: 0;}
+.appr {padding: 30px;}
+.simpact ul.my-grid-layout-stories, .simpact ul.my-grid-layout-stories li {margin-bottom: 0 !important;}
+.inner-main-title {height: 590px;}
+span.toptxt strong {font-size: 20px;line-height: 30px;}
+.simpact {max-width: 1230px;margin: 0 auto;float: none !important;display: block;}
+.simpact li.listing-item img {width:100%;height: auto !important;aspect-ratio: 16/12;}
+.comunityCover h4 {max-width: 250px;margin: 0 auto;}
+.page-id-15537 div#pagebannerimg {display: none;}
+.gall .item-grid {padding-bottom: 30px;flex: 0 0 33.33%;max-width: 33.33%;}
+.vid-sec .kc_video_wrapper, .vid-sec .kc-video-inner, .vid-sec iframe {height: 100% !important;}
+p.sub-txt {font-weight: 600;}
+.outcomes {min-height: 600px;}
+a.kc_button.more {box-shadow: 4px 7px 9px 1px rgb(0 0 0 / 30%);}
+.hig-head {width: auto;}
+.reach {max-width: 810px;float: none;display: block;margin: 0 auto;}
+.wtxt {min-height: 216px;}
+.week {width: 190px;margin: 0 auto -30px;float: none;display: block;position: relative;}
+.footer-social-media {display: flex;align-items: center;justify-content: center;padding: 20px 0;border-top: 1px solid #ddd;}
+.footer-social-media span {display: block;}
+body .footer-social-media .sow-social-media-button {background: transparent !important;box-shadow: none !important;color: #222 !important;padding: 0 !IMPORTANT;line-height: normal !important;margin: 0 !important;height: auto;font-size: 18px;}
+.aser ul {margin-left: 0;padding-left: 20px;max-width: 1030px;margin-top:20px;}
+.aser ul li {margin-bottom: 20px;}
+.sc-head strong {color: #ef9437;}
+.sc-head {text-transform: inherit;font-weight: 600;font-size: 24px;max-width: 355px;padding: 50px 15px 0;line-height: 34px;}
+.comp-boxes .kc_single_image p {text-align: center !important;}
+
+.video-box .kc-video-inner {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.h100 .kc_row_inner {
+    height: 100%;
+		width: calc(100% + 15px);
+}
+.wm-list .wp-post-image {
+    width: 100%;
+    height: 280px !important;
+}
+.comp .kc-col-container {
+    background: #fff;
+    padding: 15px;
+}
+.comp-boxes {
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    float: none;
+	width: 100% !important;
+}
+.img-boxes .kc_col-sm-4 .kc-col-inner-container .kc_single_image {
+    padding-bottom: 20px;
+}
+.mx-wid .kc-row-container, .mx-cuswid {
+    max-width: 80%;
+    margin: 0 auto;
+	float:none;
+}
+.bb0 .kc-title-wrap {border-bottom:0 !important;}
+.bg-grey strong {
+    background: #e3e3e3;
+    padding: 10px 20px;
+}
+.img-boxes .kc_col-sm-4 .kc-col-inner-container {
+    background: #f5f5f5;
+}
+ .page-id-14768 .inner-main-title .container {
+    max-width: 80%;
+    padding: 0 15px;
+}
+footer .sow-social-media-button span {
+    display: block;
+    position: relative;
+}
+footer .sow-social-media-button {
+    height: auto;
+}
+footer .widget_sow-social-media-buttons {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+    width: 50px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 4px -1px #111;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: translateY(-50%);
+		display: none;
+}
+.page-id-14256 footer .widget_sow-social-media-buttons, .single-post .widget_sow-social-media-buttons{
+    display: block;
+}
+.sow-icon-fontawesome[data-sow-icon]:before {
+    content: ' ';
+    background-image: none;
+    height: auto;
+    width: auto;
+    position: inherit;
+    left: 0;
+}
+.page-id-14256 .inner-main-title {
+    display: none;
+}
+.d-none{
+	display:none !important;
+}
+.cstm_orng span {
+    color: #e98209;
+    font-weight: bold;
+}
+.bg-theme {
+    background: #ffbe00;
+    padding: 12px 20px;
+}
+.jcenter .kc-elm {
+    justify-content: center;
+}
+.sdesc p {
+    font-size: 22px;
+    color: #e98209;
+}
+.impactbanner img {
+    aspect-ratio: 1366/423;
+    object-fit: cover;
+	  width: 100%;
+}
+h1.top-title {
+	font-size:30px;
+    max-width: 620px;
+    margin: 20px auto;
+    line-height: 1.4em;
+}
+.impactbanner {
+    text-align: center;
+}
+.category-impact h1.entry-title {
+    display: none;
+}
+	.category-daan-utsav-2023 figure.post-thumb, .category-impact figure.post-thumb {
+    display: none;
+}
+.nav-links {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.my-grid-layout-stories a.image img {height: 220px;object-fit: cover;}
+.nav-links span, .nav-links a {
+    font-size: 18px;
+    padding: 0 8px;
+}
+ul.my-grid-layout-stories a.image {
+    margin-bottom: 20px;
+    display: block;
+}
+
+ul.my-grid-layout-stories p a:not(.excerpt-more) {
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+	margin-bottom: 10px;
+    display: block;
+}
+
+ul.my-grid-layout-stories p {
+    margin-bottom: 0;
+	font-size: 16px !important;
+    line-height: 24px;
+}
+
+a.excerpt-more {
+    background-image: linear-gradient(to bottom, #f29e21, #e98209);
+    border-radius: 0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 6px 12px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+ul.my-grid-layout-stories {
+    padding-left: 0 !important;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+	margin-left:0;
+}
+ul.my-grid-layout-stories li.listing-item {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    background: #f5f5f5;
+    padding: 30px !important;
+}
+.w-100 {
+    width: 100% !important;
+    margin: 0 auto;
+}
+.gr-box {
+    background: #f2f2f2;
+    padding: 20px;
+}
+.gr-box p:last-child {
+    margin-bottom: 0;
+}
+.gr-box p {
+    margin-bottom: 10px;
+}
+h3.ch2 {
+    display: inline-block;
+    background: #ffbe00;
+    padding: 10px 16px 10px 8px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: inherit;
+    line-height: 20px;
+    margin: 0;
+    color: #333;
+    background: #ffbe00;
+    margin-top: 40px;
+    position: relative;
+    padding-left: 54px;
+	line-height: 32px;
+}
+h3.ch2:before {
+    content: ' ';
+    background-color: #F6B800;
+    height: 100%;
+    width: 46px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+h3.ch2:after {
+    content: ' ';
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 29px;
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+.mlist2 {
+    background: transparent;
+    box-shadow: none;
+}
+
+.mlist2 .kc_wrapper.kc-col-inner-container {
+    background: #fff;
+    box-shadow: 0 2px 1px 1px #eee;
+}
+.white-box p {
+    line-height: 27px;
+}
+.kc_text_block.white-box ul {
+    margin-left: 0;
+    padding-left: 22px;
+}
+.kc_text_block.white-box ul li {
+    padding: 5px 0;
+    line-height: 27px;
+}
+.hgaon .kc-title-wrap {
+    border-bottom: 1px solid #ffbe00;
+}
+#donatebtn{
+	display: none;
+}
+
+.textwidget{
+	padding-top: 0px;
+}
+
+#social-media{
+	display: none;
+}
+
+#get-involved-row{
+	display: none;
+}
+
+#home-about-image{
+	margin-top: 20px;
+}
+
+#get-involved-sidebar{
+	display: none;
+}
+
+#ece-image{
+	text-align: center;
+}
+
+@media only screen and (min-width:1500px) {
+	.mx-wid .kc-row-container, .page-id-14768 .inner-main-title .container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+}
+@media only screen and (min-width:1700px) {
+	.mx-wid .kc-row-container, .page-id-14768 .inner-main-title .container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+}
+@media (max-width:1499px) {
+	.introBoxCol {
+    padding: 15px;
+	}
+}
+@media only screen and (min-width:1441px) and (max-width:1700px) {
+	.sc-head {
+    font-size: 32px;
+    max-width: 370px;
+    margin-bottom: -220px;
+    padding-top: 50px;
+    line-height: 42px;
+}
+	.gs3 {
+    min-height: 420px;
+}
+	.sc-head2 {
+    max-width: 420px !important;
+    padding-top: 0 !important;
+}
+}
+@media only screen and (min-width:1201px) and (max-width:1440px) {
+	.sc-head2 {max-width: 420px !important;margin-bottom: 0 !important;padding-top: 20px !important;}
+	.res-reach .kc_col-sm-4 {
+    width: 37% !important;
+}
+	.res-reach {
+    min-height: 460px;
+    background-position: center !important;
+}
+	.rsapp {
+    min-height: 460px !important;
+}
+	.girl-scale {min-height: 420px;}
+	.container {width: 100%;}
+	.sc-head {
+    font-size: 24px;
+    max-width: 330px;
+    margin-bottom: -120px;
+    padding-top: 50px;
+    line-height: 34px;
+}
+	.aser ul {max-width: 630px;}
+	.aser {padding-bottom: 90px !important;}
+	.outcomes {
+    min-height: 550px;
+}
+	.aser-reach p {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    max-width: 470px;
+}
+	.inner-main-title {
+    height: 480px;
+}
+}
+@media only screen and (min-width:1200px) {
+	.hvid iframe {
+    min-height: 395px;
+}
+	.vd iframe {
+    height: 210px !important;
+}
+}
+@media only screen and (max-width:1200px) {
+	.sc-head {
+    margin-bottom: 0;
+		max-width: 100%;
+    text-align: justify;
+}
+	
+}
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+	.sc-head {font-size: 22px;max-width: 310px;margin-bottom: -70px;padding-top: 20px;line-height: 32px;}
+	.aser ul {max-width: 460px;}
+	.aser {padding-bottom: 70px !important;}
+}
+@media only screen and (max-width:1024px) {
+		.white-box br {display:none;}
+}
+@media only screen and (min-width:1000px) and (max-width:1200px) {
+	.gs2 {min-height: 335px;}
+	.sc-head2 {max-width: 430px;text-align: left;padding-top: 0;padding-bottom: 55px;}
+}
+@media only screen and (min-width:601px) and (max-width:991px) {
+	ul.my-grid-layout-stories li.listing-item {width: calc(50% - 20px);}
+}
+@media only screen and (max-width:767px) {
+	.sc-head2 {font-size: 18px !important;}
+	.h100 {height:auto;}
+	.sociallinks .item-grid {padding: 0 3px;}
+	.kasp h5 {font-size: 16px;padding: 12px;width: 100%;margin: 0 auto 20px;}
+	.sociallinks {max-width: 155px;margin: 0 auto;}
+	.bx-shadow iframe, .w100 iframe {width:100%;}
+	.h100 .kc_row_inner {height: 230px;width: 100%;margin: 0;}
+	.wm-list .wp-post-image {height: 220px !important;}
+	.page-id-14491 .inner-main-title .container, .page-id-14768 .inner-main-title .container, .page-id-15761 .inner-main-title .container {max-width: 95%;}
+	.inner-main-title h1.entry-title {
+    font-size: 24px;
+}
+	.custom-head-pointed h3 {font-size: 20px;}
+	.bg-grey strong {display: block;}
+	.comp-boxes .kc_col-sm-4 {width: 33.33% !important;padding: 0 12px;}
+	.kc_single_image p {line-height: 20px;word-wrap: initial;font-size: 13px;}
+}
+@media only screen and (max-width:600px) {
+	.post-template-blog-template ul {margin-left: 15px;padding-left: 15px;}
+	.post-template-blog-template img.alignleft, .post-template-blog-template img.alignright {float: none;display: block;margin: 0 auto 20px;}
+	.post-template-blog-template h1.entry-title {margin: 0 auto 20px;font-size: 20px;line-height: 30px;}
+	.post-template-blog-template .white-box {padding: 20px;}
+	.blog-page li p {font-size: 14px !important;line-height: 24px;margin-bottom: 10px;}
+	.blog-page .image img {max-width: 100%;margin-bottom: 20px;aspect-ratio: 16 / 9;height: auto;}
+	.blog-page li p a:not(.excerpt-more) {font-size: 18px;line-height: 26px;color: #222;}
+	.blog-page a.image {margin-right: 0 !important;float: none !important;}
+	ul.my-grid-layout-stories li.listing-item {width: 100%;}
+	.site-footer {top: 0;}
+	.mx-wid .kc-row-container, .mx-cuswid {max-width: 95%;margin: 0 auto;}
+	.video-box .kc-video-inner {max-width: 100%;margin: 0 auto;}
+	.comp .kc-col-container {float: left;}
+	.page-id-14491 .inner-main-title , .page-id-15761 .inner-main-title{background-position:right;}
+	.sc-head {font-size: 18px;max-width: 100%;padding-top: 10px;line-height: 24px;text-align: justify;margin-bottom: 15px;}
+	.inner-main-title h1.entry-title {max-width: 300px;}
+	.outcomes {
+    min-height: auto;
+}
+	.gall .item-grid {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50% !important;
+}
+	span.toptxt strong {font-size: 20px;line-height: 30px;}
+	.girl-scale {min-height:auto;}
+}
+		</style>
+		<script type="text/javascript"></script><style type="text/css" id="kc-css-general">.kc-off-notice{display: inline-block !important;}.kc-container{max-width:1170px;}</style><style type="text/css" id="kc-css-render"></style>
+	</head>
+<body data-rsssl=1 class="home page-template-default page page-id-104 wp-custom-logo gutentor-active kc-css-system siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home fpt-template-education-base no-sidebar group-blog">
+
+        <div class="site" id="page">
+        	
+
+
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+        <div class='education-base-main-header-wrapper'>        <div class="navbar at-navbar " id="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
+                    <a href="https://pratham.org/" class="custom-logo-link" rel="home" aria-current="page"><img width="230" height="49" src="https://pratham.org/wp-content/uploads/2019/03/pratham-logo.svg" class="custom-logo" alt="Pratham" decoding="async" /></a>                </div>
+                <div class="main-navigation navbar-collapse collapse">
+                    <div class="menu-top-menu-container"><ul id="primary-menu" class="nav navbar-nav navbar-right acme-normal-page"><li id="menu-item-7285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7285"><a href="https://pratham.org/about/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-2457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2457"><a href="https://pratham.org/about/board/">Board</a></li>
+	<li id="menu-item-2461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2461"><a href="https://pratham.org/about/leadership/">Leadership</a></li>
+	<li id="menu-item-2470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2470"><a href="https://pratham.org/about/partners/">Partners</a></li>
+	<li id="menu-item-2467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2467"><a href="https://pratham.org/about/teaching-at-the-right-level/">Teaching at the Right Level</a></li>
+	<li id="menu-item-2466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2466"><a href="https://pratham.org/about/recognition/">Recognition</a></li>
+	<li id="menu-item-2465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2465"><a href="https://pratham.org/about/news/">What’s New</a></li>
+	<li id="menu-item-2462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2462"><a href="https://pratham.org/about/legal-financial-information/">Legal &#038; Financial Information</a></li>
+</ul>
+</li>
+<li id="menu-item-16726" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16726"><a href="#">Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-2511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2511"><a href="https://pratham.org/programs/education/">Education</a>
+	<ul class="sub-menu">
+		<li id="menu-item-13832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13832"><a href="https://pratham.org/about/hamara-gaon/">Hamara Gaon</a></li>
+		<li id="menu-item-11713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11713"><a href="https://pratham.org/programs/education/early-childhood-education/">Early Childhood Education</a></li>
+		<li id="menu-item-17308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17308"><a href="https://pratham.org/programs/education/elementary/">Elementary</a></li>
+		<li id="menu-item-16346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16346"><a href="https://pratham.org/slider/second-chance-slider/">Second Chance</a></li>
+		<li id="menu-item-4680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4680"><a href="https://pratham.org/programs/education/digital-initiatives/">Digital Initiatives</a></li>
+	</ul>
+</li>
+	<li id="menu-item-16821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16821"><a href="https://pratham.org/programs/education/vocational-training/">Vocational Training</a></li>
+	<li id="menu-item-16474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16474"><a href="https://pratham.org/programs/pratham-council-for-vulnerablechildren/">Pratham Council For Vulnerable Children</a></li>
+	<li id="menu-item-16429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16429"><a href="https://pratham.org/programs/education/aser/">Annual Status of Education Report</a></li>
+</ul>
+</li>
+<li id="menu-item-16727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16727"><a href="#">Get Involved</a>
+<ul class="sub-menu">
+	<li id="menu-item-4141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4141"><a href="https://pratham.org/get-involved/job-opportunities/">Job Opportunities</a></li>
+	<li id="menu-item-6800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6800"><a href="https://pratham.org/get-involved/internships/">Internships</a></li>
+</ul>
+</li>
+<li id="menu-item-8167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8167"><a href="#">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-10329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10329"><a href="https://prathamopenschool.org/">Pratham Digital</a></li>
+	<li id="menu-item-14220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14220"><a href="https://pratham.org/impact/">Stories of Change</a></li>
+	<li id="menu-item-16674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16674"><a href="https://pratham.org/blogs/">Blogs</a></li>
+	<li id="menu-item-14465" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14465"><a href="#">Campaigns</a>
+	<ul class="sub-menu">
+		<li id="menu-item-17658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17658"><a href="https://pratham.org/iampratham/">IAmPratham</a></li>
+		<li id="menu-item-16752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16752"><a href="https://pratham.org/daan-utsav-2/">Daan utsav</a></li>
+		<li id="menu-item-15644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15644"><a href="https://pratham.org/camal-ka-camp-2023/">CAMaL Ka Camp</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2464"><a href="https://pratham.org/resources/publications/">Publications</a></li>
+	<li id="menu-item-9920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9920"><a href="https://pratham.org/about/annual-reports/">Annual Reports</a></li>
+</ul>
+</li>
+<li id="menu-item-7070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7070"><a href="https://pratham.org/contact/">Contact</a></li>
+</ul></div>                   <div class="searchwithdntouter">
+				   <div class="mainsearchfrm" id="mainsearchfrm"><div class="search-block">
+    <form action="https://pratham.org" class="searchform" id="searchform" method="get" role="search">
+        <div>
+            <label for="menu-search" class="screen-reader-text"></label>
+                        <input type="text"  placeholder=""  class="menu-search" id="menu-search" name="s" value="">
+            <button class="searchsubmit fa fa-search" type="submit" id="searchsubmit"></button>
+        </div>
+    </form>
+</div></div>
+					     <div class='donatebtn' id='donatebtn'><a href='https://www.pratham.org/get-involved/donate' target='_blank'>Donate</a></div>				  </div>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+        </div>                <div class="image-slider-wrapper home-fullscreen responsive-img">
+                    <div class="acme-owl-carausel">
+                                                    <div class="item" style="">
+                                <img src="https://pratham.org/wp-content/uploads/2024/02/Early-Years.png"/>                                    <div class="slider-content text-left">
+                                        <div class="container">
+                                            <div class="banner-title init-animate slideInUp1">Early Years</div>
+                                            <div class="image-slider-caption init-animate slideInUp2">
+                                                <p>Focusing on the holistic development of children aged 3 to 8 years.</p>
+                                            </div>
+                                                                                            <a href="https://pratham.org/slider/ece-slider/" class="init-animate slideInUp3 btn btn-primary outline-outward banner-btn">
+                                                    Read More                                                </a>
+                                                                                        </div>
+                                    </div>
+                                                                </div>
+                                                        <div class="item" style="">
+                                <img src="https://pratham.org/wp-content/uploads/2024/02/Second-Chance.png"/>                                    <div class="slider-content text-left">
+                                        <div class="container">
+                                            <div class="banner-title init-animate slideInUp1">Second Chance</div>
+                                            <div class="image-slider-caption init-animate slideInUp2">
+                                                <p>Supporting girls and women with completing their secondary education.</p>
+                                            </div>
+                                                                                            <a href="https://pratham.org/slider/second-chance-slider/" class="init-animate slideInUp3 btn btn-primary outline-outward banner-btn">
+                                                    Read More                                                </a>
+                                                                                        </div>
+                                    </div>
+                                                                </div>
+                                                        <div class="item" style="">
+                                <img src="https://pratham.org/wp-content/uploads/2024/02/Vocational-Training-1.png"/>                                    <div class="slider-content text-left">
+                                        <div class="container">
+                                            <div class="banner-title init-animate slideInUp1">Vocational Training</div>
+                                            <div class="image-slider-caption init-animate slideInUp2">
+                                                <p>Equipping youth with employable skills &amp; access to employment and entrepreneurship opportunities</p>
+                                            </div>
+                                                                                            <a href="https://pratham.org/slider/skilling-slider/" class="init-animate slideInUp3 btn btn-primary outline-outward banner-btn">
+                                                    Read More                                                </a>
+                                                                                        </div>
+                                    </div>
+                                                                </div>
+                                                        <div class="item" style="">
+                                <img src="https://pratham.org/wp-content/uploads/2024/01/ASER-banner.png"/>                                    <div class="slider-content text-left">
+                                        <div class="container">
+                                            <div class="banner-title init-animate slideInUp1">ASER 2023: Beyond Basics</div>
+                                            <div class="image-slider-caption init-animate slideInUp2">
+                                                <p>Provides evidence on youth (14–18 year-olds) enrollment patterns, learning levels, digital access &amp; skills, and their aspirations.</p>
+                                            </div>
+                                                                                            <a href="https://pratham.org/slider/aser-2023-beyond-basics/" class="init-animate slideInUp3 btn btn-primary outline-outward banner-btn">
+                                                    Read More                                                </a>
+                                                                                        </div>
+                                    </div>
+                                                                </div>
+                                                </div>
+                </div>
+                        <div class="clearfix"></div>
+        	<div class="wrapper inner-main-title" id="pagebannerimg" >
+		<div class="container">
+			<header class="entry-header init-animate slideInUp1">
+				<h1 class="entry-title">Home</h1>				                <!-- Let's show our custom fields here -->
+
+                
+                <!-- End showing our custom fields here -->
+			</header><!-- .entry-header -->
+		</div>
+	</div>
+	<div id="content" class="site-content container clearfix">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+		<article id="post-104" class="init-animate slideInUp1 post-104 page type-page status-publish hentry">
+	
+
+	<div class="content-wrapper">
+		<div class="entry-content">
+			<div id="pl-104"  class="panel-layout" ><div id="pg-104-0"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom-0 panel-row-style panel-row-style-for-104-0" ><div id="pgc-104-0-0"  class="panel-grid-cell" ><div id="panel-104-0-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" ><div class="textwidget custom-html-widget">
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"0c0fe2eb9a0f61eb21c328c91","lid":"fc5c9b448a","uniqueMethods":true}) })</script></div></div></div></div></div><div id="pg-104-1"  class="panel-grid panel-no-style" ><div id="pgc-104-1-0"  class="panel-grid-cell" ><div id="panel-104-1-0-0" class="so-panel widget widget_siteorigin-panels-builder panel-first-child" data-index="1" ><div id="pl-w65e964465c6f7"  class="panel-layout" ><div id="pg-w65e964465c6f7-0"  class="panel-grid panel-has-style" ><div class="max-width panel-row-style panel-row-style-for-w65e964465c6f7-0" ><div id="pgc-w65e964465c6f7-0-0"  class="panel-grid-cell" ><div id="panel-w65e964465c6f7-0-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" ><div class="textwidget custom-html-widget"><div class="custom-head">
+	<h3>
+		About Us
+	</h3>
+</div></div></div></div></div></div><div id="pg-w65e964465c6f7-1"  class="panel-grid panel-has-style" ><div class="max-width panel-row-style panel-row-style-for-w65e964465c6f7-1" ><div id="pgc-w65e964465c6f7-1-0"  class="panel-grid-cell" ><div id="panel-w65e964465c6f7-1-0-0" class="so-panel widget widget_siteorigin-panels-builder panel-first-child panel-last-child" data-index="1" ><div class="progress-box panel-widget-style panel-widget-style-for-w65e964465c6f7-1-0-0" ><div id="pl-w65e964465c70a"  class="panel-layout" ><div id="pg-w65e964465c70a-0"  class="panel-grid panel-has-style" ><div class="education-block relative-position panel-row-style panel-row-style-for-w65e964465c70a-0" ><div id="pgc-w65e964465c70a-0-0"  class="panel-grid-cell" ><div id="panel-w65e964465c70a-0-0-0" class="so-panel widget widget_sow-video panel-first-child panel-last-child" data-index="0" ><div class="hvid panel-widget-style panel-widget-style-for-w65e964465c70a-0-0-0" ><div
+			
+			class="so-widget-sow-video so-widget-sow-video-default-f379b959fc93"
+			
+		>
+<div class="sow-video-wrapper no-controls">
+			<iframe title="Transforming Lives: Pratham Education Foundation&#039;s Impactful Journey" width="640" height="360" src="https://www.youtube.com/embed/GHDXLXVgH-E?feature=oembed&autoplay=1&mute=1&playlist=GHDXLXVgH-E&loop=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	</div>
+</div></div></div></div><div id="pgc-w65e964465c70a-0-1"  class="panel-grid-cell" ><div id="panel-w65e964465c70a-0-1-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="1" ><div id="homepage-about-text" class="panel-widget-style panel-widget-style-for-w65e964465c70a-0-1-0" >			<div class="textwidget"><p>Pratham is an innovative learning organization created to improve the quality of education in India. Established in 1995 to provide education to children in the slums of Mumbai, Pratham has grown in both scope and scale, with programs today reaching children and youth across the country.</p>
+<p>As one of the largest non-governmental organizations in the country, Pratham focuses on high-quality, low-cost and replicable interventions to address gaps in the education system. Working directly with children and youth as well as through large-scale collaborations with government systems, Pratham programs reach millions of lives every year. Pratham&#8217;s <a href="https://www.pratham.org/about/teaching-at-the-right-level/">Teaching at the Right Level</a> (TaRL) approach has demonstrated proven impact on children&#8217;s learning outcomes and is now being adapted to contexts outside India.</p>
+</div>
+		</div></div></div></div></div></div></div></div></div></div></div></div></div><div id="panel-104-1-0-1" class="so-panel widget widget_siteorigin-panels-builder panel-last-child" data-index="2" ><div class="panel-widget-style panel-widget-style-for-104-1-0-1" ><div id="pl-w65e964465cb26"  class="panel-layout" ><div id="pg-w65e964465cb26-0"  class="panel-grid panel-has-style" ><div class="max-width panel-row-style panel-row-style-for-w65e964465cb26-0" ><div id="pgc-w65e964465cb26-0-0"  class="panel-grid-cell" ><div id="panel-w65e964465cb26-0-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="0" ><div class="textwidget custom-html-widget"><div class="custom-head">
+	<h3>
+		Programs
+	</h3>
+</div></div></div></div></div></div><div id="pg-w65e964465cb26-1"  class="panel-grid panel-has-style" ><div class="max-width panel-row-style panel-row-style-for-w65e964465cb26-1" ><div id="pgc-w65e964465cb26-1-0"  class="panel-grid-cell" ><div id="panel-w65e964465cb26-1-0-0" class="so-panel widget widget_siteorigin-panels-builder panel-first-child panel-last-child" data-index="1" ><div class="progress-box panel-widget-style panel-widget-style-for-w65e964465cb26-1-0-0" ><div id="pl-w65e88cdd48da6"  class="panel-layout" ><div id="pg-w65e88cdd48da6-0"  class="panel-grid panel-has-style" ><div class="education-block relative-position panel-row-style panel-row-style-for-w65e88cdd48da6-0" ><div id="pgc-w65e88cdd48da6-0-0"  class="panel-grid-cell" ><div id="panel-w65e88cdd48da6-0-0-0" class="so-panel widget widget_sow-image panel-first-child" data-index="0" ><div class="title-image panel-widget-style panel-widget-style-for-w65e88cdd48da6-0-0-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-8b5b6f678277"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://pratham.org/programs/education/"
+					>
+			<img fetchpriority="high" decoding="async" src="https://pratham.org/wp-content/uploads/2024/03/education-picture-homepage.jpg" width="800" height="533" srcset="https://pratham.org/wp-content/uploads/2024/03/education-picture-homepage.jpg 800w, https://pratham.org/wp-content/uploads/2024/03/education-picture-homepage-300x200.jpg 300w, https://pratham.org/wp-content/uploads/2024/03/education-picture-homepage-768x512.jpg 768w, https://pratham.org/wp-content/uploads/2024/03/education-picture-homepage-272x182.jpg 272w" sizes="(max-width: 800px) 100vw, 800px" title="Education" alt="Education" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w65e88cdd48da6-0-0-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="1" ><div class="textwidget custom-html-widget"><h3 class="program-home"><a href="https://pratham.org/programs/education/">Education</a></h3></div></div></div><div id="pgc-w65e88cdd48da6-0-1"  class="panel-grid-cell" ><div id="panel-w65e88cdd48da6-0-1-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="2" ><div class="padding-top-30 padding-top-0-mobile panel-widget-style panel-widget-style-for-w65e88cdd48da6-0-1-0" ><h3 class="widget-title">Education</h3>			<div class="textwidget"><p>Across the spectrum from Early Childhood Education to Secondary Education, our programs strive to achieve focused objectives across different segments, as defined by our understanding of existing gaps and the impact of our innovations over time.</p>
+<p><a class="btn banner-btn" href="https://pratham.org/programs/education/">Learn More</a></p>
+</div>
+		</div></div></div></div></div><div id="pg-w65e88cdd48da6-1"  class="panel-grid panel-no-style" ><div id="pgc-w65e88cdd48da6-1-0"  class="panel-grid-cell" ><div id="panel-w65e88cdd48da6-1-0-0" class="so-panel widget widget_sow-image panel-first-child" data-index="3" ><div class="title-image panel-widget-style panel-widget-style-for-w65e88cdd48da6-1-0-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-8b5b6f678277"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://pratham.org/programs/education/vocational-training/"
+					>
+			<img decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/Vocational-Training-Updated.png" width="780" height="780" srcset="https://pratham.org/wp-content/uploads/2024/02/Vocational-Training-Updated.png 780w, https://pratham.org/wp-content/uploads/2024/02/Vocational-Training-Updated-300x300.png 300w, https://pratham.org/wp-content/uploads/2024/02/Vocational-Training-Updated-150x150.png 150w, https://pratham.org/wp-content/uploads/2024/02/Vocational-Training-Updated-768x768.png 768w" sizes="(max-width: 780px) 100vw, 780px" title="Vocational Training" alt="Vocational Training" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w65e88cdd48da6-1-0-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="4" ><div class="textwidget custom-html-widget"><h3 class="widget-title program-home"><a href="https://pratham.org/programs/education/vocational-training/">Vocational Training</a></h3></div></div></div><div id="pgc-w65e88cdd48da6-1-1"  class="panel-grid-cell" ><div id="panel-w65e88cdd48da6-1-1-0" class="so-panel widget widget_sow-image panel-first-child" data-index="5" ><div class="title-image panel-widget-style panel-widget-style-for-w65e88cdd48da6-1-1-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-8b5b6f678277"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://pratham.org/programs/education/aser/"
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/ASER.png" width="780" height="780" srcset="https://pratham.org/wp-content/uploads/2024/02/ASER.png 780w, https://pratham.org/wp-content/uploads/2024/02/ASER-300x300.png 300w, https://pratham.org/wp-content/uploads/2024/02/ASER-150x150.png 150w, https://pratham.org/wp-content/uploads/2024/02/ASER-768x768.png 768w" sizes="(max-width: 780px) 100vw, 780px" title="ASER" alt="ASER" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w65e88cdd48da6-1-1-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="6" ><div class="textwidget custom-html-widget"><h3 class="widget-title program-home"><a href="https://pratham.org/programs/education/aser/">ASER</a></h3></div></div></div><div id="pgc-w65e88cdd48da6-1-2"  class="panel-grid-cell" ><div id="panel-w65e88cdd48da6-1-2-0" class="so-panel widget widget_sow-image panel-first-child" data-index="7" ><div class="title-image panel-widget-style panel-widget-style-for-w65e88cdd48da6-1-2-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-8b5b6f678277"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://pratham.org/programs/pratham-council-for-vulnerablechildren/"
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/PCVC.png" width="780" height="780" srcset="https://pratham.org/wp-content/uploads/2024/02/PCVC.png 780w, https://pratham.org/wp-content/uploads/2024/02/PCVC-300x300.png 300w, https://pratham.org/wp-content/uploads/2024/02/PCVC-150x150.png 150w, https://pratham.org/wp-content/uploads/2024/02/PCVC-768x768.png 768w" sizes="(max-width: 780px) 100vw, 780px" title="PCVC" alt="PCVC" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w65e88cdd48da6-1-2-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="8" ><div class="textwidget custom-html-widget"><h3 class="widget-title program-home"><a href="https://pratham.org/programs/pratham-council-for-vulnerablechildren/">PCVC</a></h3></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div id="pg-104-2"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom50 mobile-bottom-0 panel-row-style panel-row-style-for-104-2" ><div id="pgc-104-2-0"  class="panel-grid-cell" ><div id="panel-104-2-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="3" ><div class="textwidget custom-html-widget"><div class="custom-head">
+	<h3>
+		Progress-O-Meter  2022-23
+	</h3>
+</div></div></div></div></div></div><div id="pg-104-3"  class="panel-grid panel-has-style" ><div class="max-width  margin-bottom50 panel-row-style panel-row-style-for-104-3" ><div id="pgc-104-3-0"  class="panel-grid-cell" ><div id="panel-104-3-0-0" class="so-panel widget widget_siteorigin-panels-builder panel-first-child panel-last-child" data-index="4" ><div class="progress-box panel-widget-style panel-widget-style-for-104-3-0-0" ><div id="pl-w65bb65c23f38d"  class="panel-layout" ><div id="pg-w65bb65c23f38d-0"  class="panel-grid panel-has-style" ><div class="progress-meter-section panel-row-style panel-row-style-for-w65bb65c23f38d-0" ><div id="pgc-w65bb65c23f38d-0-0"  class="panel-grid-cell" ><div id="panel-w65bb65c23f38d-0-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="0" ><div class="textwidget custom-html-widget"><div class="progress-section" style="font-size:16px;font-weight:bold;min-height:60px">
+Activities in
+</div></div></div><div id="panel-w65bb65c23f38d-0-0-1" class="so-panel widget widget_sow-image" data-index="1" ><div class="test-img-pm panel-widget-style panel-widget-style-for-w65bb65c23f38d-0-0-1" id="test-img-pm" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-49681edeb466"
+			
+		>
+
+<div class="sow-image-container">
+		<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/progress-o-meter-01.png" width="237" height="100" sizes="(max-width: 237px) 100vw, 237px" alt="" 		class="so-widget-image"/>
+	</div>
+
+</div></div></div><div id="panel-w65bb65c23f38d-0-0-2" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="2" ><div class="textwidget custom-html-widget"><div class="progress-section" style="font-size:21px">
+<p>States & Union Territories
+</p>
+</div></div></div></div><div id="pgc-w65bb65c23f38d-0-1"  class="panel-grid-cell" ><div id="panel-w65bb65c23f38d-0-1-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="3" ><div class="textwidget custom-html-widget"><div class="progress-section" style="font-size:16px;font-weight:bold;min-height:60px">
+Government partnerships in
+</div></div></div><div id="panel-w65bb65c23f38d-0-1-1" class="so-panel widget widget_sow-image" data-index="4" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+		<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/progress-o-meter-02.png" width="237" height="100" sizes="(max-width: 237px) 100vw, 237px" alt="" 		class="so-widget-image"/>
+	</div>
+
+</div></div><div id="panel-w65bb65c23f38d-0-1-2" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="5" ><div class="textwidget custom-html-widget"><div class="progress-section">
+<p>
+States & Union Territories
+</p>
+</div></div></div></div><div id="pgc-w65bb65c23f38d-0-2"  class="panel-grid-cell" ><div id="panel-w65bb65c23f38d-0-2-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="6" ><div class="textwidget custom-html-widget"><div class="progress-section" style="font-size:16px;font-weight:bold;min-height:60px">
+Activities engaged
+</div></div></div><div id="panel-w65bb65c23f38d-0-2-1" class="so-panel widget widget_sow-image" data-index="7" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+		<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/progress-o-meter-03.png" width="237" height="100" sizes="(max-width: 237px) 100vw, 237px" alt="" 		class="so-widget-image"/>
+	</div>
+
+</div></div><div id="panel-w65bb65c23f38d-0-2-2" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="8" ><div class="textwidget custom-html-widget"><div class="progress-section">
+<p>
+Parents & Volunteers
+</p>
+</div></div></div></div><div id="pgc-w65bb65c23f38d-0-3"  class="panel-grid-cell" ><div id="panel-w65bb65c23f38d-0-3-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="9" ><div class="textwidget custom-html-widget"><div class="progress-section" style="font-size:16px;font-weight:bold;min-height:60px">
+Programs reached
+</div></div></div><div id="panel-w65bb65c23f38d-0-3-1" class="so-panel widget widget_sow-image" data-index="10" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-49681edeb466"
+			
+		>
+
+<div class="sow-image-container">
+		<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2024/02/progress-o-meter-04.png" width="237" height="100" sizes="(max-width: 237px) 100vw, 237px" alt="" 		class="so-widget-image"/>
+	</div>
+
+</div></div><div id="panel-w65bb65c23f38d-0-3-2" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="11" ><div class="textwidget custom-html-widget"><div class="progress-section">
+<p>Children & Youth</p>
+</div></div></div></div></div></div></div></div></div></div></div></div><div id="pg-104-4"  class="panel-grid panel-has-style" ><div class="max-width margin-top-30px panel-row-style panel-row-style-for-104-4" id="get-involved-row" ><div id="pgc-104-4-0"  class="panel-grid-cell" ><div id="panel-104-4-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="5" ><div class="textwidget custom-html-widget"><div class="custom-head">
+	<h3>
+		Get Involved
+	</h3>
+</div></div></div><div id="panel-104-4-0-1" class="so-panel widget widget_siteorigin-panels-builder panel-last-child" data-index="6" ><div class="white-box  progress-box bet-involved panel-widget-style panel-widget-style-for-104-4-0-1" ><div id="pl-w63fe700a83c5c"  class="panel-layout" ><div id="pg-w63fe700a83c5c-0"  class="panel-grid panel-has-style" ><div class="gutter-4 get-involved-text button-top-margin panel-row-style panel-row-style-for-w63fe700a83c5c-0" ><div id="pgc-w63fe700a83c5c-0-0"  class="panel-grid-cell" ><div id="panel-w63fe700a83c5c-0-0-0" class="so-panel widget widget_sow-image panel-first-child" data-index="0" ><div class="image-boxes panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-0-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+			<a href=""
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2018/12/contact-partner.png" width="101" height="107" sizes="(max-width: 101px) 100vw, 101px" title="Partner with us" alt="Partner with us" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w63fe700a83c5c-0-0-1" class="so-panel widget widget_sow-headline panel-last-child" data-index="1" ><div class="button-vert-align panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-0-1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-970e33ba5865"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="" >
+								Partner with us</a>						</p>
+						</div>
+</div></div></div></div><div id="pgc-w63fe700a83c5c-0-1"  class="panel-grid-cell" ><div id="panel-w63fe700a83c5c-0-1-0" class="so-panel widget widget_sow-image panel-first-child" data-index="2" ><div class="image-boxes panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-1-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+			<a href=""
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2018/12/donate-icons.png" width="122" height="110" sizes="(max-width: 122px) 100vw, 122px" title="Donate" alt="Donate" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w63fe700a83c5c-0-1-1" class="so-panel widget widget_sow-headline panel-last-child" data-index="3" ><div class="button-vert-align panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-1-1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-970e33ba5865"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="" >
+								Donate</a>						</p>
+						</div>
+</div></div></div></div><div id="pgc-w63fe700a83c5c-0-2"  class="panel-grid-cell" ><div id="panel-w63fe700a83c5c-0-2-0" class="so-panel widget widget_sow-image panel-first-child" data-index="4" ><div class="image-boxes panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-2-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://pratham.org/get-involved/job-opportunities/"
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2019/05/work-with-us.png" width="116" height="105" sizes="(max-width: 116px) 100vw, 116px" title="Job Opportunities" alt="Job Opportunities" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w63fe700a83c5c-0-2-1" class="so-panel widget widget_sow-headline panel-last-child" data-index="5" ><div class="button-vert-align panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-2-1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-970e33ba5865"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/get-involved/job-opportunities/" >
+								Job Opportunities</a>						</p>
+						</div>
+</div></div></div></div><div id="pgc-w63fe700a83c5c-0-3"  class="panel-grid-cell" ><div id="panel-w63fe700a83c5c-0-3-0" class="so-panel widget widget_sow-image panel-first-child" data-index="6" ><div class="image-boxes panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-3-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://pratham.org/get-involved/internships/"
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2018/12/get-involved.png" width="111" height="114" sizes="(max-width: 111px) 100vw, 111px" title="Internships" alt="Internships" 		class="so-widget-image"/>
+	</a></div>
+
+</div></div></div><div id="panel-w63fe700a83c5c-0-3-1" class="so-panel widget widget_sow-headline panel-last-child" data-index="7" ><div class="button-vert-align panel-widget-style panel-widget-style-for-w63fe700a83c5c-0-3-1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-970e33ba5865"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/get-involved/internships/" >
+								Internships</a>						</p>
+						</div>
+</div></div></div></div></div></div></div></div></div></div></div></div><div id="pg-104-5"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom50 panel-row-style panel-row-style-for-104-5" ><div id="pgc-104-5-0"  class="panel-grid-cell" ><div id="panel-104-5-0-0" class="so-panel widget widget_siteorigin-panels-builder panel-first-child panel-last-child" data-index="7" ><div id="pl-w63fe6f87145c9"  class="panel-layout" ><div id="pg-w63fe6f87145c9-0"  class="panel-grid panel-no-style" ><div id="pgc-w63fe6f87145c9-0-0"  class="panel-grid-cell" ><div id="panel-w63fe6f87145c9-0-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="0" ><div class="textwidget custom-html-widget">	<a href="https://www.pratham.org/about/news/">
+<div class="custom-head">
+	<h3>
+	What's New
+	</h3>
+</div>
+</a></div></div><div id="panel-w63fe6f87145c9-0-0-1" class="so-panel widget widget_siteorigin-panels-builder panel-last-child" data-index="1" ><div class="white-bg-tile padding-0 panel-widget-style panel-widget-style-for-w63fe6f87145c9-0-0-1" ><div id="pl-w63fe6efa32c09"  class="panel-layout" ><div id="pg-w63fe6efa32c09-0"  class="panel-grid panel-no-style" ><div id="pgc-w63fe6efa32c09-0-0"  class="panel-grid-cell" ><div id="panel-w63fe6efa32c09-0-0-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="0" ><div
+			
+			class="so-widget-sow-editor so-widget-sow-editor-base"
+			
+		>
+<div class="siteorigin-widget-tinymce textwidget">
+	<ul class="my-grid-layout-news-home"><li class="listing-item"><a class="image" href="https://pratham.org/2024/06/24/dr-rukmini-banerji-was-conferred-the-doctor-of-letters-honoris-causa-dlitt-by-krea-university/"><img loading="lazy" decoding="async" width="150" height="150" src="https://pratham.org/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-24-at-17.32.47-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a> <p><a  href="https://pratham.org/2024/06/24/dr-rukmini-banerji-was-conferred-the-doctor-of-letters-honoris-causa-dlitt-by-krea-university/">Dr. Rukmini Banerji conferred the Doctor of Letters, honoris causa (DLitt), by Krea University</a></p> <span><p style="font-size:13px;">Dr. Banerji was conferred the Doctor of Letters, honoris causa (DLitt), by Krea University in recognition of her exceptional services to education and development.</br><a class="excerpt-more" href="https://pratham.org/2024/06/24/dr-rukmini-banerji-was-conferred-the-doctor-of-letters-honoris-causa-dlitt-by-krea-university/">Know More</a></p></span></li><li class="listing-item"><a class="image" href="https://pratham.org/2023/12/12/the-foundational-learning-data-challenge-a-civil-society-view-from-the-global-south/"><img loading="lazy" decoding="async" width="150" height="150" src="https://pratham.org/wp-content/uploads/2023/12/Screenshot-2023-12-12-121444-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a> <p><a  href="https://pratham.org/2023/12/12/the-foundational-learning-data-challenge-a-civil-society-view-from-the-global-south/">The foundational learning data challenge: A civil society view from the Global South</a></p> <span><p style="font-size:13px;">Suman Bhattacharjea, Director (Research), ASER Centre co-wrote an article published on UNESCO 's World Education Blog. It stresses on the need for internationally comparable data on early-grade literacy and numeracy.</br><a class="excerpt-more" href="https://pratham.org/2023/12/12/the-foundational-learning-data-challenge-a-civil-society-view-from-the-global-south/">Know More</a></p></span></li><li class="listing-item"><a class="image" href="https://pratham.org/2023/12/05/rukmini-banerji-co-authors-blog-on-fighting-learning-crisis-with-world-banks-mamta-murthi/"><img loading="lazy" decoding="async" width="150" height="150" src="https://pratham.org/wp-content/uploads/2023/11/RB-landscape-photo-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></a> <p><a  href="https://pratham.org/2023/12/05/rukmini-banerji-co-authors-blog-on-fighting-learning-crisis-with-world-banks-mamta-murthi/">Rukmini Banerji co-authors blog on fighting learning crisis with World Bank&#8217;s Mamta Murthi</a></p> <span><p style="font-size:13px;">In a new blog, Rukmini Banerji and Mamta Murthi, Vice President, Human Development, World Bank, tell us how learning poverty can be tackled using scalable interventions and community-driven initiatives.</br><a class="excerpt-more" href="https://pratham.org/2023/12/05/rukmini-banerji-co-authors-blog-on-fighting-learning-crisis-with-world-banks-mamta-murthi/">Know More</a></p></span></li><li class="listing-item"><a class="image" href="https://pratham.org/2023/11/28/childrens-rights-in-the-asia-pacific-region-critical-reflections-on-participation-education-girls-rights-and-child-marriage/"><img loading="lazy" decoding="async" width="150" height="150" src="https://pratham.org/wp-content/uploads/2023/11/whatsapp_image_2023-11-24_at_1.42.51_pm-1-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Children&#039;s Rights in the Asia-Pacific Region: Critical Reflections on Participation, Education, Girls&#039; Rights and Child Marriage" /></a> <p><a  href="https://pratham.org/2023/11/28/childrens-rights-in-the-asia-pacific-region-critical-reflections-on-participation-education-girls-rights-and-child-marriage/">Children’s Rights in the Asia-Pacific Region: Critical Reflections on Participation, Education, Girls’ Rights and Child Marriage</a></p> <span><p style="font-size:13px;">Bridging the divide between parental understandings of schooling and learning filled a missing link in children’s education and has paved the way for ongoing parental engagement in children’s education, which is overwhelmingly positive.</br><a class="excerpt-more" href="https://pratham.org/2023/11/28/childrens-rights-in-the-asia-pacific-region-critical-reflections-on-participation-education-girls-rights-and-child-marriage/">Know More</a></p></span></li></ul>
+</div>
+</div></div></div></div></div></div></div></div></div><div id="pg-w63fe6f87145c9-1"  class="panel-grid panel-no-style" ><div id="pgc-w63fe6f87145c9-1-0"  class="panel-grid-cell" ><div id="panel-w63fe6f87145c9-1-0-0" class="so-panel widget widget_sow-tabs panel-first-child panel-last-child" data-index="2" ><div class="margin-bottom-0-0 panel-widget-style panel-widget-style-for-w63fe6f87145c9-1-0-0" id="social-media" ><div
+			
+			class="so-widget-sow-tabs so-widget-sow-tabs-default-02e4508ec074"
+			
+		><div class="sow-tabs">
+	<div class="sow-tabs-tab-container" role="tablist">
+			<div
+			class="sow-tabs-tab sow-tabs-tab-selected"
+			role="tab"
+			data-anchor-id="facebook"
+			aria-selected="true"
+			tabindex="0"
+		>
+			<div class="sow-tabs-title sow-tabs-title-icon-left">
+								Facebook							</div>
+		</div>
+			<div
+			class="sow-tabs-tab"
+			role="tab"
+			data-anchor-id="twitter"
+			aria-selected="false"
+			tabindex="0"
+		>
+			<div class="sow-tabs-title sow-tabs-title-icon-left">
+								Twitter							</div>
+		</div>
+		</div>
+
+	<div class="sow-tabs-panel-container">
+			<div class="sow-tabs-panel">
+			<div
+				class="sow-tabs-panel-content"
+				role="tabpanel"
+				aria-hidden="false"
+			>
+				[custom-facebook-feed]			</div>
+		</div>
+			<div class="sow-tabs-panel">
+			<div
+				class="sow-tabs-panel-content"
+				role="tabpanel"
+				aria-hidden="true"
+			>
+				[custom-twitter-feeds height=400px]			</div>
+		</div>
+		</div>
+</div>
+</div></div></div></div></div></div></div></div></div></div><div id="pg-104-6"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom50 panel-row-style panel-row-style-for-104-6" ><div id="pgc-104-6-0"  class="panel-grid-cell" ><div id="panel-104-6-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="8" ><div class="textwidget custom-html-widget"><div class="custom-head">
+	<h3>
+		Other Websites
+	</h3>
+</div></div></div></div></div></div><div id="pg-104-7"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom-0-0 otherwebsites-links panel-row-style panel-row-style-for-104-7" ><div id="pgc-104-7-0"  class="panel-grid-cell" ><div id="panel-104-7-0-0" class="so-panel widget widget_siteorigin-panels-builder panel-first-child panel-last-child" data-index="9" ><div class="progress-box gutter-5 panel-widget-style panel-widget-style-for-104-7-0-0" ><div id="pl-w64f1d4c5560d6"  class="panel-layout" ><div id="pg-w64f1d4c5560d6-0"  class="panel-grid panel-no-style" ><div id="pgc-w64f1d4c5560d6-0-0"  class="panel-grid-cell" ><div id="panel-w64f1d4c5560d6-0-0-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="0" ><div class="image-box panel-widget-style panel-widget-style-for-w64f1d4c5560d6-0-0-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="http://www.asercentre.org"
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2018/12/Image-aser.png" width="87" height="73" sizes="(max-width: 87px) 100vw, 87px" title="ASER Centre" alt="ASER Centre" 		class="so-widget-image"/>
+	</a></div>
+
+<h3 class="widget-title">ASER Centre</h3></div></div></div></div><div id="pgc-w64f1d4c5560d6-0-1"  class="panel-grid-cell" ><div id="panel-w64f1d4c5560d6-0-1-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="1" ><div class="image-box panel-widget-style panel-widget-style-for-w64f1d4c5560d6-0-1-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-113ccd71f3e6"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="http://www.pif.org.in"
+					>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2018/12/info-foundation.png" width="228" height="67" sizes="(max-width: 228px) 100vw, 228px" title="Pratham Infotech Foundation" alt="Pratham Infotech Foundation" 		class="so-widget-image"/>
+	</a></div>
+
+<h3 class="widget-title">Pratham Infotech Foundation</h3></div></div></div></div><div id="pgc-w64f1d4c5560d6-0-2"  class="panel-grid-cell" ><div id="panel-w64f1d4c5560d6-0-2-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="2" ><div class="image-box panel-widget-style panel-widget-style-for-w64f1d4c5560d6-0-2-0" ><div
+			
+			class="so-widget-sow-image so-widget-sow-image-default-334eeca80698"
+			
+		>
+
+<div class="sow-image-container">
+			<a href="https://prathamopenschool.org/"
+			target="_blank" rel="noopener noreferrer" 		>
+			<img loading="lazy" decoding="async" src="https://pratham.org/wp-content/uploads/2023/07/Pradigi-logo-1-2048x711-1.png" width="300" height="104" sizes="(max-width: 300px) 100vw, 300px" title="Pratham Digital" alt="Pratham Digital" 		class="so-widget-image"/>
+	</a></div>
+
+<h3 class="widget-title">Pratham Digital</h3></div></div></div></div></div></div></div></div></div></div></div><div id="pg-104-8"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom-0-0 otherwebsites-links panel-row-style panel-row-style-for-104-8" ><div id="pgc-104-8-0"  class="panel-grid-cell" ><div id="panel-104-8-0-0" class="widget_text so-panel widget widget_custom_html panel-first-child panel-last-child" data-index="10" ><div class="textwidget custom-html-widget"><h3 align="center">
+		Our Partners
+</h3>
+	</div></div></div></div></div><div id="pg-104-9"  class="panel-grid panel-has-style" ><div class="max-width margin-bottom-0-0 otherwebsites-links panel-row-style panel-row-style-for-104-9" ><div id="pgc-104-9-0"  class="panel-grid-cell" ><div id="panel-104-9-0-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="11" ><div
+			
+			class="so-widget-sow-editor so-widget-sow-editor-base"
+			
+		>
+<div class="siteorigin-widget-tinymce textwidget">
+	<div class="su-image-carousel  su-image-carousel-columns-8 su-image-carousel-has-spacing su-image-carousel-has-outline su-image-carousel-adaptive su-image-carousel-slides-style-minimal su-image-carousel-controls-style-light su-image-carousel-align-center" style="" data-flickity-options='{"groupCells":true,"cellSelector":".su-image-carousel-item","adaptiveHeight":true,"cellAlign":"left","prevNextButtons":true,"pageDots":false,"autoPlay":3000,"imagesLoaded":true,"contain":false,"selectedAttraction":0.025,"friction":0.28}' id="su_image_carousel_66a92039d6360"><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/Adobe.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/EAA.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="601" height="371" src="https://pratham.org/wp-content/uploads/2021/12/Google.png" class="" alt="" srcset="https://pratham.org/wp-content/uploads/2021/12/Google.png 601w, https://pratham.org/wp-content/uploads/2021/12/Google-300x185.png 300w" sizes="(max-width: 601px) 100vw, 601px" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/Hemant-Goradia.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/Jaideep-Khanna.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="318" height="140" src="https://pratham.org/wp-content/uploads/2021/12/Schmidt-Futures.png" class="" alt="" srcset="https://pratham.org/wp-content/uploads/2021/12/Schmidt-Futures.png 318w, https://pratham.org/wp-content/uploads/2021/12/Schmidt-Futures-300x132.png 300w" sizes="(max-width: 318px) 100vw, 318px" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/SMFT.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="612" height="140" src="https://pratham.org/wp-content/uploads/2021/12/Sulzer-Logo.jpg" class="" alt="" srcset="https://pratham.org/wp-content/uploads/2021/12/Sulzer-Logo.jpg 612w, https://pratham.org/wp-content/uploads/2021/12/Sulzer-Logo-300x69.jpg 300w" sizes="(max-width: 612px) 100vw, 612px" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/UBS.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="226" height="140" src="https://pratham.org/wp-content/uploads/2021/12/WD.png" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/34.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/33.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/32.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/31.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/30.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/29.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/28.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/27.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/26.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/25.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/24.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/23.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/22.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/21.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/20.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/19.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/18.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/17.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/16.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/15.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/14.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/13.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/12.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/11.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/10.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/9.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/8.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/7.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/6.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/5.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/4.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/3.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/2.jpg" class="" alt="" /></div></div><div class="su-image-carousel-item"><div class="su-image-carousel-item-content"><img loading="lazy" decoding="async" width="221" height="140" src="https://pratham.org/wp-content/uploads/2020/01/1.jpg" class="" alt="" /></div></div></div><script id="su_image_carousel_66a92039d6360_script">if(window.SUImageCarousel){setTimeout(function() {window.SUImageCarousel.initGallery(document.getElementById("su_image_carousel_66a92039d6360"))}, 0);}var su_image_carousel_66a92039d6360_script=document.getElementById("su_image_carousel_66a92039d6360_script");if(su_image_carousel_66a92039d6360_script){su_image_carousel_66a92039d6360_script.parentNode.removeChild(su_image_carousel_66a92039d6360_script);}</script>
+</div>
+</div></div></div></div></div></div>			
+		</div>
+		
+		<footer class="entry-footer">
+					</footer>
+
+	</div>
+</article><!-- #post-## -->		</main><!-- #main -->
+	</div><!-- #primary -->
+</div><!-- #content -->
+        <div class="clearfix"></div>
+        <footer class="site-footer">
+                            <div class="container">
+                    <div class="bottom">
+                        <div id="footer-top">
+                            <div class="footer-columns at-fixed-width">
+                                                                    <div class="footer-sidebar col-sm-2 init-animate slideInUp1">
+                                        <aside id="siteorigin-panels-builder-8" class="widget widget_siteorigin-panels-builder"><div id="pl-w6629fb5446844"  class="panel-layout" ><div id="pg-w6629fb5446844-0"  class="panel-grid panel-no-style" ><div id="pgc-w6629fb5446844-0-0"  class="panel-grid-cell" ><div id="panel-w6629fb5446844-0-0-0" class="so-panel widget widget_sow-headline panel-first-child" data-index="0" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-b9167c5c4d42"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+						About Us						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w6629fb5446844-0-0-1" class="so-panel widget widget_sow-headline" data-index="1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/about/" >
+								About Pratham</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w6629fb5446844-0-0-2" class="so-panel widget widget_sow-headline" data-index="2" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/about/board/" >
+								Board</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w6629fb5446844-0-0-3" class="so-panel widget widget_sow-headline" data-index="3" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/about/leadership/" >
+								Leadership</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w6629fb5446844-0-0-4" class="so-panel widget widget_sow-headline panel-last-child" data-index="4" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/about/partners/" >
+								Partners</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div></div></div></div></aside>                                    </div>
+                                                                    <div class="footer-sidebar col-sm-2 init-animate slideInUp1">
+                                        <aside id="siteorigin-panels-builder-10" class="widget widget_siteorigin-panels-builder"><div id="pl-w66741d6b50836"  class="panel-layout" ><div id="pg-w66741d6b50836-0"  class="panel-grid panel-no-style" ><div id="pgc-w66741d6b50836-0-0"  class="panel-grid-cell" ><div id="panel-w66741d6b50836-0-0-0" class="so-panel widget widget_sow-headline panel-first-child" data-index="0" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-b9167c5c4d42"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+						Programs						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-1" class="so-panel widget widget_sow-headline" data-index="1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/programs/education/" >
+								Education</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-2" class="so-panel widget widget_sow-headline" data-index="2" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="" >
+								Vocational Training </a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-3" class="so-panel widget widget_sow-headline" data-index="3" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/programs/education/aser/" >
+								Annual Status of Education Report</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-4" class="so-panel widget widget_sow-headline" data-index="4" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/programs/pratham-council-for-vulnerablechildren/" >
+								Pratham Council For Vulnerable Children</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-5" class="so-panel widget widget_sow-headline" data-index="5" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/covid-19-response/" >
+								Covid Response</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-6" class="so-panel widget widget_sow-headline" data-index="6" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/covid-19-response/prathams-community-based-campaign-for-learning-readiness-catch-up/" >
+								Learning Readiness &amp; Catch Up</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6b50836-0-0-7" class="so-panel widget widget_sow-headline panel-last-child" data-index="7" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://prathamorg.blob.core.windows.net/data/Pratham%20during%20Pandemic%20Lessons%20from%20the%20community.pdf" target="_blank" rel="noopener noreferrer">
+								Lessons from the Pandemic</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div></div></div></div></aside><aside id="sow-social-media-buttons-4" class="widget widget_sow-social-media-buttons"><div
+			
+			class="so-widget-sow-social-media-buttons so-widget-sow-social-media-buttons-atom-a3cb6559403b"
+			
+		>
+
+<div class="social-media-button-container">
+	
+		<a class="ow-button-hover sow-social-media-button-facebook-0 sow-social-media-button" title="Pratham on Facebook" aria-label="Pratham on Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PrathamEducationFoundation/" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf39e;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-linkedin-0 sow-social-media-button" title="Pratham on Linkedin" aria-label="Pratham on Linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/pratham" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf0e1;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-youtube-0 sow-social-media-button" title="Pratham on Youtube" aria-label="Pratham on Youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/prathamfoundation" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf167;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-instagram-0 sow-social-media-button" title="Pratham on Instagram" aria-label="Pratham on Instagram" target="_blank" rel="noopener noreferrer" href="https://instagram.com/prathameducation" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf16d;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-x-twitter-0 sow-social-media-button" title="Twitter" aria-label="Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Pratham_India" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xe61b;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	</div>
+</div></aside>                                    </div>
+                                                                    <div class="footer-sidebar col-sm-2 init-animate slideInUp1">
+                                        <aside id="siteorigin-panels-builder-11" class="widget widget_siteorigin-panels-builder"><div id="pl-w6629fab85e982"  class="panel-layout" ><div id="pg-w6629fab85e982-0"  class="panel-grid panel-no-style" ><div id="pgc-w6629fab85e982-0-0"  class="panel-grid-cell" ><div id="panel-w6629fab85e982-0-0-0" class="so-panel widget widget_sow-headline panel-first-child" data-index="0" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-b9167c5c4d42"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+						Get Involved						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w6629fab85e982-0-0-1" class="so-panel widget widget_sow-headline" data-index="1" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/get-involved/job-opportunities/" >
+								Job Opportunities</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w6629fab85e982-0-0-2" class="so-panel widget widget_sow-headline panel-last-child" data-index="2" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-f8c630091a5d"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+													<a href="https://pratham.org/get-involved/internships/" >
+								Internships</a>						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div></div></div></div></aside>                                    </div>
+                                                                    <div class="footer-sidebar col-sm-3 init-animate slideInUp1">
+                                       <aside id="siteorigin-panels-builder-12" class="widget widget_siteorigin-panels-builder"><div id="pl-w66741d6ba670e"  class="panel-layout" ><div id="pg-w66741d6ba670e-0"  class="panel-grid panel-no-style" ><div id="pgc-w66741d6ba670e-0-0"  class="panel-grid-cell" ><div id="panel-w66741d6ba670e-0-0-0" class="so-panel widget widget_sow-headline panel-first-child" data-index="0" ><div
+			
+			class="so-widget-sow-headline so-widget-sow-headline-default-b9167c5c4d42"
+			
+		><div class="sow-headline-container ">
+							<p class="sow-headline">
+						Delhi Office						</p>
+											<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					</div>
+</div></div><div id="panel-w66741d6ba670e-0-0-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="1" ><div class="textwidget custom-html-widget"><div class="address">
+<p>
+B- 4/59, Safdarjung Enclave<br>
+1st Floor, New Delhi - 110 029<br>
+Email: <a href="mailto:info@pratham.org">info@pratham.org</a><br>
+Contact number: 01141651638
+
+		</p>
+
+
+</div></div></div></div></div></div></aside>                                    </div>
+                                <!--
+                                    <div class="footer-sidebar ">
+                                                                           </div>
+                                   -->                                   <div class="footer-sidebar col-sm-3 init-animate slideInUp1">
+<aside id="siteorigin-panels-builder-14" class="widget widget_siteorigin-panels-builder"><div id="pl-w5ccd4b997184d" class="panel-layout"><div id="pg-w5ccd4b997184d-0" class="panel-grid panel-no-style"><div id="pgc-w5ccd4b997184d-0-0" class="panel-grid-cell"><div id="panel-w5ccd4b997184d-0-0-0" class="so-panel widget widget_sow-headline panel-first-child" data-index="0"><div class="so-widget-sow-headline so-widget-sow-headline-default-84c79cb31899"><div class="sow-headline-container ">
+<p class="sow-headline">Mumbai Office</p>					<div class="decoration">
+<div class="decoration-inside"></div>
+</div>
+</div></div></div><div id="panel-w5ccd4b997184d-0-0-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="1"><div class="textwidget custom-html-widget"><div class="address">
+<p>
+Y.B. Chavan Center, 4th Floor,<br>
+Gen. J. Bhosale Marg. Nariman Point<br>
+Mumbai, Maharashtra - 400021<br>
+Email: <a href="mailto:info@pratham.org">info@pratham.org</a><br>
+Contact number: 022 22819561<br>
+022 22819562
+</p>
+</div></div></div></div></div></div></aside>                                    </div>
+                                                            </div>
+                        </div><!-- #foter-top -->
+                    </div><!-- bottom-->
+                </div>
+                <div class="clearfix"></div>
+                            <div class="copy-right">
+                <div class='container'>
+                    <div class="row">
+                        <div class="col-sm-4 init-animate fadeInDown">
+                                                    </div>
+                        <div class="col-sm-4 init-animate fadeInDown">
+                                                            <p class="text-center">
+                                                                    </p>
+                                                    </div>
+
+                 
+
+                    </div>
+                </div>
+                <a href="#page" class="sm-up-container"><i class="fa fa-angle-up sm-up"></i></a>
+            </div>
+        </footer>
+            </div><!-- #page -->
+    <div class="footer-social-media">
+	<div id="sow-social-media-buttons-6" class="widget widget_sow-social-media-buttons"><div
+			
+			class="so-widget-sow-social-media-buttons so-widget-sow-social-media-buttons-atom-b94acb97d1a6"
+			
+		>
+
+<div class="social-media-button-container">
+	
+		<a class="ow-button-hover sow-social-media-button-facebook-0 sow-social-media-button" title="Pratham on Facebook" aria-label="Pratham on Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PrathamEducationFoundation/" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf39e;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-linkedin-0 sow-social-media-button" title="Pratham on Linkedin" aria-label="Pratham on Linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/pratham" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf0e1;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-youtube-0 sow-social-media-button" title="Pratham on Youtube" aria-label="Pratham on Youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/prathamfoundation" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf167;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-instagram-0 sow-social-media-button" title="Pratham on Instagram" aria-label="Pratham on Instagram" target="_blank" rel="noopener noreferrer" href="https://instagram.com/prathameducation" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xf16d;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-x-twitter-0 sow-social-media-button" title="Pratham on X Twitter" aria-label="Pratham on X Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Pratham_India" >
+			<span>
+								<span class="sow-icon-fontawesome sow-fab" data-sow-icon="&#xe61b;"
+		 
+		aria-hidden="true"></span>							</span>
+		</a>
+	</div>
+</div></div></div>
+
+<script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script><zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='clygyy4xd000exhitish0zwcj' height='600px' width='400px'></zapier-interfaces-chatbot-embed><style media="all" id="siteorigin-panels-layouts-footer">/* Layout w65e964465c70a */ #pgc-w65e964465c70a-0-0 , #pgc-w65e964465c70a-0-1 { width:50%;width:calc(50% - ( 0.5 * 30px ) ) } #pl-w65e964465c70a .so-panel { margin-bottom:30px } #pl-w65e964465c70a .so-panel:last-of-type { margin-bottom:0px } #pg-w65e964465c70a-0.panel-has-style > .panel-row-style, #pg-w65e964465c70a-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w65e964465c70a-0.panel-no-style, #pg-w65e964465c70a-0.panel-has-style > .panel-row-style, #pg-w65e964465c70a-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w65e964465c70a-0 > .panel-grid-cell , #pg-w65e964465c70a-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w65e964465c70a-0-0 { margin-bottom:30px } #pl-w65e964465c70a .panel-grid-cell { padding:0 } #pl-w65e964465c70a .panel-grid .panel-grid-cell-empty { display:none } #pl-w65e964465c70a .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w65e964465c6f7 */ #pgc-w65e964465c6f7-0-0 , #pgc-w65e964465c6f7-1-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pg-w65e964465c6f7-0 , #pl-w65e964465c6f7 .so-panel { margin-bottom:30px } #pl-w65e964465c6f7 .so-panel:last-of-type { margin-bottom:0px } #pg-w65e964465c6f7-0.panel-has-style > .panel-row-style, #pg-w65e964465c6f7-0.panel-no-style , #pg-w65e964465c6f7-1.panel-has-style > .panel-row-style, #pg-w65e964465c6f7-1.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w65e964465c6f7-0.panel-no-style, #pg-w65e964465c6f7-0.panel-has-style > .panel-row-style, #pg-w65e964465c6f7-0 , #pg-w65e964465c6f7-1.panel-no-style, #pg-w65e964465c6f7-1.panel-has-style > .panel-row-style, #pg-w65e964465c6f7-1 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w65e964465c6f7-0 > .panel-grid-cell , #pg-w65e964465c6f7-0 > .panel-row-style > .panel-grid-cell , #pg-w65e964465c6f7-1 > .panel-grid-cell , #pg-w65e964465c6f7-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w65e964465c6f7 .panel-grid-cell { padding:0 } #pl-w65e964465c6f7 .panel-grid .panel-grid-cell-empty { display:none } #pl-w65e964465c6f7 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w65e88cdd48da6 */ #pgc-w65e88cdd48da6-0-0 , #pgc-w65e88cdd48da6-0-1 { width:50%;width:calc(50% - ( 0.5 * 30px ) ) } #pg-w65e88cdd48da6-0 , #pl-w65e88cdd48da6 .so-panel { margin-bottom:30px } #pgc-w65e88cdd48da6-1-0 , #pgc-w65e88cdd48da6-1-1 , #pgc-w65e88cdd48da6-1-2 { width:33.3333%;width:calc(33.3333% - ( 0.66666666666667 * 30px ) ) } #pl-w65e88cdd48da6 .so-panel:last-of-type { margin-bottom:0px } #pg-w65e88cdd48da6-0.panel-has-style > .panel-row-style, #pg-w65e88cdd48da6-0.panel-no-style , #pg-w65e88cdd48da6-1.panel-has-style > .panel-row-style, #pg-w65e88cdd48da6-1.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w65e88cdd48da6-0.panel-no-style, #pg-w65e88cdd48da6-0.panel-has-style > .panel-row-style, #pg-w65e88cdd48da6-0 , #pg-w65e88cdd48da6-1.panel-no-style, #pg-w65e88cdd48da6-1.panel-has-style > .panel-row-style, #pg-w65e88cdd48da6-1 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w65e88cdd48da6-0 > .panel-grid-cell , #pg-w65e88cdd48da6-0 > .panel-row-style > .panel-grid-cell , #pg-w65e88cdd48da6-1 > .panel-grid-cell , #pg-w65e88cdd48da6-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w65e88cdd48da6-0-0 , #pgc-w65e88cdd48da6-1-0 , #pgc-w65e88cdd48da6-1-1 { margin-bottom:30px } #pl-w65e88cdd48da6 .panel-grid-cell { padding:0 } #pl-w65e88cdd48da6 .panel-grid .panel-grid-cell-empty { display:none } #pl-w65e88cdd48da6 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w65e964465cb26 */ #pgc-w65e964465cb26-0-0 , #pgc-w65e964465cb26-1-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pg-w65e964465cb26-0 , #pl-w65e964465cb26 .so-panel { margin-bottom:30px } #pl-w65e964465cb26 .so-panel:last-of-type { margin-bottom:0px } #pg-w65e964465cb26-0.panel-has-style > .panel-row-style, #pg-w65e964465cb26-0.panel-no-style , #pg-w65e964465cb26-1.panel-has-style > .panel-row-style, #pg-w65e964465cb26-1.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w65e964465cb26-0.panel-no-style, #pg-w65e964465cb26-0.panel-has-style > .panel-row-style, #pg-w65e964465cb26-0 , #pg-w65e964465cb26-1.panel-no-style, #pg-w65e964465cb26-1.panel-has-style > .panel-row-style, #pg-w65e964465cb26-1 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w65e964465cb26-0 > .panel-grid-cell , #pg-w65e964465cb26-0 > .panel-row-style > .panel-grid-cell , #pg-w65e964465cb26-1 > .panel-grid-cell , #pg-w65e964465cb26-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w65e964465cb26 .panel-grid-cell { padding:0 } #pl-w65e964465cb26 .panel-grid .panel-grid-cell-empty { display:none } #pl-w65e964465cb26 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w65bb65c23f38d */ #pgc-w65bb65c23f38d-0-0 , #pgc-w65bb65c23f38d-0-1 , #pgc-w65bb65c23f38d-0-2 , #pgc-w65bb65c23f38d-0-3 { width:25%;width:calc(25% - ( 0.75 * 30px ) ) } #pl-w65bb65c23f38d .so-panel { margin-bottom:30px } #pl-w65bb65c23f38d .so-panel:last-of-type { margin-bottom:0px } #pg-w65bb65c23f38d-0.panel-has-style > .panel-row-style, #pg-w65bb65c23f38d-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w65bb65c23f38d-0.panel-no-style, #pg-w65bb65c23f38d-0.panel-has-style > .panel-row-style, #pg-w65bb65c23f38d-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w65bb65c23f38d-0 > .panel-grid-cell , #pg-w65bb65c23f38d-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w65bb65c23f38d-0-0 , #pgc-w65bb65c23f38d-0-1 , #pgc-w65bb65c23f38d-0-2 { margin-bottom:30px } #pl-w65bb65c23f38d .panel-grid-cell { padding:0 } #pl-w65bb65c23f38d .panel-grid .panel-grid-cell-empty { display:none } #pl-w65bb65c23f38d .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px } #panel-w65bb65c23f38d-0-0-1> .panel-widget-style { width:100%; height:100% }  } /* Layout w63fe700a83c5c */ #pgc-w63fe700a83c5c-0-0 , #pgc-w63fe700a83c5c-0-1 , #pgc-w63fe700a83c5c-0-2 , #pgc-w63fe700a83c5c-0-3 { width:25%;width:calc(25% - ( 0.75 * 30px ) ) } #pl-w63fe700a83c5c .so-panel { margin-bottom:30px } #pl-w63fe700a83c5c .so-panel:last-of-type { margin-bottom:0px } #pg-w63fe700a83c5c-0.panel-has-style > .panel-row-style, #pg-w63fe700a83c5c-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w63fe700a83c5c-0.panel-no-style, #pg-w63fe700a83c5c-0.panel-has-style > .panel-row-style, #pg-w63fe700a83c5c-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w63fe700a83c5c-0 > .panel-grid-cell , #pg-w63fe700a83c5c-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w63fe700a83c5c-0-0 , #pgc-w63fe700a83c5c-0-1 , #pgc-w63fe700a83c5c-0-2 { margin-bottom:30px } #pl-w63fe700a83c5c .panel-grid-cell { padding:0 } #pl-w63fe700a83c5c .panel-grid .panel-grid-cell-empty { display:none } #pl-w63fe700a83c5c .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w63fe6efa32c09 */ #pgc-w63fe6efa32c09-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-w63fe6efa32c09 .so-panel { margin-bottom:30px } #pl-w63fe6efa32c09 .so-panel:last-of-type { margin-bottom:0px } #pg-w63fe6efa32c09-0.panel-has-style > .panel-row-style, #pg-w63fe6efa32c09-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w63fe6efa32c09-0.panel-no-style, #pg-w63fe6efa32c09-0.panel-has-style > .panel-row-style, #pg-w63fe6efa32c09-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w63fe6efa32c09-0 > .panel-grid-cell , #pg-w63fe6efa32c09-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w63fe6efa32c09 .panel-grid-cell { padding:0 } #pl-w63fe6efa32c09 .panel-grid .panel-grid-cell-empty { display:none } #pl-w63fe6efa32c09 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w63fe6f87145c9 */ #pgc-w63fe6f87145c9-0-0 , #pgc-w63fe6f87145c9-1-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pg-w63fe6f87145c9-0 , #pl-w63fe6f87145c9 .so-panel { margin-bottom:30px } #pl-w63fe6f87145c9 .so-panel:last-of-type { margin-bottom:0px } #pg-w63fe6f87145c9-0.panel-has-style > .panel-row-style, #pg-w63fe6f87145c9-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w63fe6f87145c9-0.panel-no-style, #pg-w63fe6f87145c9-0.panel-has-style > .panel-row-style, #pg-w63fe6f87145c9-0 , #pg-w63fe6f87145c9-1.panel-no-style, #pg-w63fe6f87145c9-1.panel-has-style > .panel-row-style, #pg-w63fe6f87145c9-1 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w63fe6f87145c9-0 > .panel-grid-cell , #pg-w63fe6f87145c9-0 > .panel-row-style > .panel-grid-cell , #pg-w63fe6f87145c9-1 > .panel-grid-cell , #pg-w63fe6f87145c9-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w63fe6f87145c9 .panel-grid-cell { padding:0 } #pl-w63fe6f87145c9 .panel-grid .panel-grid-cell-empty { display:none } #pl-w63fe6f87145c9 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w64f1d4c5560d6 */ #pgc-w64f1d4c5560d6-0-0 , #pgc-w64f1d4c5560d6-0-1 , #pgc-w64f1d4c5560d6-0-2 { width:33.3333%;width:calc(33.3333% - ( 0.66666666666667 * 30px ) ) } #pl-w64f1d4c5560d6 .so-panel { margin-bottom:30px } #pl-w64f1d4c5560d6 .so-panel:last-of-type { margin-bottom:0px } #pg-w64f1d4c5560d6-0.panel-has-style > .panel-row-style, #pg-w64f1d4c5560d6-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } #pgc-w64f1d4c5560d6-0-1 { align-self:auto } @media (max-width:780px){ #pg-w64f1d4c5560d6-0.panel-no-style, #pg-w64f1d4c5560d6-0.panel-has-style > .panel-row-style, #pg-w64f1d4c5560d6-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w64f1d4c5560d6-0 > .panel-grid-cell , #pg-w64f1d4c5560d6-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w64f1d4c5560d6-0-0 , #pgc-w64f1d4c5560d6-0-1 { margin-bottom:30px } #pl-w64f1d4c5560d6 .panel-grid-cell { padding:0 } #pl-w64f1d4c5560d6 .panel-grid .panel-grid-cell-empty { display:none } #pl-w64f1d4c5560d6 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w6629fb5446844 */ #pgc-w6629fb5446844-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-w6629fb5446844 .so-panel { margin-bottom:30px } #pl-w6629fb5446844 .so-panel:last-of-type { margin-bottom:0px } #pg-w6629fb5446844-0.panel-has-style > .panel-row-style, #pg-w6629fb5446844-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w6629fb5446844-0.panel-no-style, #pg-w6629fb5446844-0.panel-has-style > .panel-row-style, #pg-w6629fb5446844-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w6629fb5446844-0 > .panel-grid-cell , #pg-w6629fb5446844-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w6629fb5446844 .panel-grid-cell { padding:0 } #pl-w6629fb5446844 .panel-grid .panel-grid-cell-empty { display:none } #pl-w6629fb5446844 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w66741d6b50836 */ #pgc-w66741d6b50836-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-w66741d6b50836 .so-panel { margin-bottom:30px } #pl-w66741d6b50836 .so-panel:last-of-type { margin-bottom:0px } #pg-w66741d6b50836-0.panel-has-style > .panel-row-style, #pg-w66741d6b50836-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w66741d6b50836-0.panel-no-style, #pg-w66741d6b50836-0.panel-has-style > .panel-row-style, #pg-w66741d6b50836-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w66741d6b50836-0 > .panel-grid-cell , #pg-w66741d6b50836-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w66741d6b50836 .panel-grid-cell { padding:0 } #pl-w66741d6b50836 .panel-grid .panel-grid-cell-empty { display:none } #pl-w66741d6b50836 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w6629fab85e982 */ #pgc-w6629fab85e982-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-w6629fab85e982 .so-panel { margin-bottom:30px } #pl-w6629fab85e982 .so-panel:last-of-type { margin-bottom:0px } #pg-w6629fab85e982-0.panel-has-style > .panel-row-style, #pg-w6629fab85e982-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w6629fab85e982-0.panel-no-style, #pg-w6629fab85e982-0.panel-has-style > .panel-row-style, #pg-w6629fab85e982-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w6629fab85e982-0 > .panel-grid-cell , #pg-w6629fab85e982-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w6629fab85e982 .panel-grid-cell { padding:0 } #pl-w6629fab85e982 .panel-grid .panel-grid-cell-empty { display:none } #pl-w6629fab85e982 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } /* Layout w66741d6ba670e */ #pgc-w66741d6ba670e-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-w66741d6ba670e .so-panel { margin-bottom:30px } #pl-w66741d6ba670e .so-panel:last-of-type { margin-bottom:0px } #pg-w66741d6ba670e-0.panel-has-style > .panel-row-style, #pg-w66741d6ba670e-0.panel-no-style { -webkit-align-items:flex-start;align-items:flex-start } @media (max-width:780px){ #pg-w66741d6ba670e-0.panel-no-style, #pg-w66741d6ba670e-0.panel-has-style > .panel-row-style, #pg-w66741d6ba670e-0 { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w66741d6ba670e-0 > .panel-grid-cell , #pg-w66741d6ba670e-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-w66741d6ba670e .panel-grid-cell { padding:0 } #pl-w66741d6ba670e .panel-grid .panel-grid-cell-empty { display:none } #pl-w66741d6ba670e .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel='stylesheet' id='html-player-responsive-css' href='https://pratham.org/wp-content/plugins/so-widgets-bundle/widgets/video/css/html-player-responsive.css?ver=1.62.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://pratham.org/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://pratham.org/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-image-default-8b5b6f678277-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-image-default-8b5b6f678277.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-image-default-49681edeb466-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-image-default-49681edeb466.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-image-default-113ccd71f3e6-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-image-default-113ccd71f3e6.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-headline-default-970e33ba5865-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-headline-default-970e33ba5865.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-tabs-default-02e4508ec074-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-tabs-default-02e4508ec074.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-image-default-334eeca80698-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-image-default-334eeca80698.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-headline-default-b9167c5c4d42-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-headline-default-b9167c5c4d42.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-google-font-open sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400&#038;ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-headline-default-f8c630091a5d-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-headline-default-f8c630091a5d.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-social-media-buttons-atom-a3cb6559403b-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-a3cb6559403b.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-widget-icon-font-fontawesome-css' href='https://pratham.org/wp-content/plugins/so-widgets-bundle/icons/fontawesome/style.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-social-media-buttons-atom-b94acb97d1a6-css' href='https://pratham.org/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-atom-b94acb97d1a6.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://pratham.org/wp-includes/css/dist/components/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://pratham.org/wp-includes/css/dist/preferences/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://pratham.org/wp-includes/css/dist/block-editor/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://pratham.org/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://pratham.org/wp-includes/css/dist/patterns/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://pratham.org/wp-includes/css/dist/editor/style.min.css?ver=6.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gutentor-css' href='https://pratham.org/wp-content/plugins/gutentor/dist/blocks.style.build.css?ver=3.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='flickity-css' href='https://pratham.org/wp-content/plugins/shortcodes-ultimate/vendor/flickity/flickity.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='su-shortcodes-css' href='https://pratham.org/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes.css?ver=7.2.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/embed-any-document/js/pdfobject.min.js?ver=2.7.4" id="awsm-ead-pdf-object-js"></script>
+<script type="text/javascript" id="awsm-ead-public-js-extra">
+/* <![CDATA[ */
+var eadPublic = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/embed-any-document/js/embed-public.min.js?ver=2.7.4" id="awsm-ead-public-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/gutentor/assets/library/wow/wow.min.js?ver=1.2.1" id="wow-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.8" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/pratham.org\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.8" id="contact-form-7-js"></script>
+<script type="module" src="https://pratham.org/wp-content/plugins/instant-page/instantpage.js?ver=5.7.0" id="instantpage-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/acmethemes/core/js/skip-link-focus-fix.js?ver=20130115" id="education-base-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/assets/library/bootstrap/js/bootstrap.min.js?ver=3.3.6" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/assets/library/owl-carousel/owl.carousel.min.js?ver=2.3.4" id="jquery-owl-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/assets/library/magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0" id="magnific-popup-js-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/themes/education-base/assets/js/education-base-custom.js?ver=1.4.6" id="education-base-custom-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.2.54" id="dflip-script-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/kingcomposer/assets/frontend/js/kingcomposer.min.js?ver=2.9.6" id="kc-front-scripts-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.5.5" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/so-widgets-bundle/widgets/video/js/so-video-widget.min.js?ver=1.62.3" id="so-video-widget-js"></script>
+<script type="text/javascript" id="sow-tabs-js-extra">
+/* <![CDATA[ */
+var sowTabs = {"scrollto_after_change":"1","scrollto_offset":"90","always_scroll":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/so-widgets-bundle/widgets/tabs/js/tabs.min.js?ver=1.62.3" id="sow-tabs-js"></script>
+<script type="text/javascript" id="gutentor-block-js-extra">
+/* <![CDATA[ */
+var gutentorLS = {"fontAwesomeVersion":"5","restNonce":"d598a33779","restUrl":"https:\/\/pratham.org\/wp-json\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/gutentor/assets/js/gutentor.js?ver=3.3.4" id="gutentor-block-js"></script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/shortcodes-ultimate/vendor/flickity/flickity.js?ver=2.2.1" id="flickity-js"></script>
+<script type="text/javascript" id="su-shortcodes-js-extra">
+/* <![CDATA[ */
+var SUShortcodesL10n = {"noPreview":"This shortcode doesn't work in live preview. Please insert it into editor and preview on the site.","magnificPopup":{"close":"Close (Esc)","loading":"Loading...","prev":"Previous (Left arrow key)","next":"Next (Right arrow key)","counter":"%curr% of %total%","error":"Failed to load content. <a href=\"%url%\" target=\"_blank\"><u>Open link<\/u><\/a>"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pratham.org/wp-content/plugins/shortcodes-ultimate/includes/js/shortcodes/index.js?ver=7.2.1" id="su-shortcodes-js"></script>
+<script data-cfasync="false"> var dFlipLocation = "https://pratham.org/wp-content/plugins/3d-flipbook-dflip-lite/assets/"; var dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"false","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","showSearchControl":"false","showPrintControl":"false","enableAnnotation":false,"enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"flipbook-"};</script><script>document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script>
+</body>
+</html>
